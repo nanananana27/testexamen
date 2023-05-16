@@ -1,0 +1,18 @@
+﻿<Window x:Class="testexamen.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:testexamen"
+        mc:Ignorable="d"
+        Title="мир" Height="800" Width="1200" MinHeight="800" MinWidth="1200">
+    <Grid>
+        <Frame x:Name="frame" NavigationUIVisibility="Hidden"/>
+        <Grid Height="75" Background="#498c51" VerticalAlignment="Top">
+            <Label x:Name="fio" Content="" HorizontalAlignment="Left" Margin="707,26,0,0" VerticalAlignment="Top" Width="261" Foreground="White" FontFamily="Comic Sans MS"/>
+            <Button x:Name="exit" Content="Выход" HorizontalAlignment="Right" Margin="1067,26,30,0" VerticalAlignment="Top" Width="103" Foreground="#498c51" Background="White" FontFamily="Comic Sans MS" Height="27" Click="exit_Click"/>
+            <Image Source="/Images/logo.png" HorizontalAlignment="Left"/>
+            <Label Content="МИР" HorizontalAlignment="Left" Margin="110,12,0,0" VerticalAlignment="Top" Width="243" FontFamily="Comic Sans MS" Foreground="White" FontSize="30"/>
+        </Grid>
+    </Grid>
+</Window>
